@@ -1,0 +1,24 @@
+﻿.container{
+
+}
+
+
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+    background-color: red;
+    
+}
+
+div.col-6 {
+    color: snow;
+    font-size: 20px;
+    height: 200px;
+    background-color: darkgreen;
+}
+
+button.btn.btn-primary.btn-lg{
+    margin:50px;
+    background-color:darkslategray;
+}
+
+
+
