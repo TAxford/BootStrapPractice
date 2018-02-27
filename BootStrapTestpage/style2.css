@@ -1,24 +1,106 @@
-﻿.container{
+﻿.container {
+}
 
+body {
+    background-color: yellow;
 }
 
 
-nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
-    background-color: red;
+div.row {
+    height: 100px;
+}
+
+ul.nav.justify-content-end {
+    background-color: black;
+}
+
+    ul.nav.justify-content-end li.nav-item a.nav-link.active {
+        color: red;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    ul.nav.justify-content-end li.nav-item a.nav-link {
+        color: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+div-col {
+    background-color: black;
+}
+
+
+
+div.col-6.first {
+    height: 500px;
+    background-image: url('img/car.jpg');
+    background-size:cover;
+}
+
+
+div.row div.col-6 div.button6 {
+    margin: 100px;
+    width: 60px;
     
 }
 
-div.col-6 {
-    color: snow;
-    font-size: 20px;
+button.btn.btn-primary.btn-lg {
+    height: 100px;
+    width: 200px;
+    border-radius: 30%;
+    background-color: black;
+}
+
+div.col-6.jumbo {
+    height: 500px;
+    background-color: red;
+}
+
+    div.col-6.jumbo div.jumbotron {
+        background-color: darkblue;
+        height: 450px;
+    }
+
+        div.col-6.jumbo div.jumbotron img.me {
+            margin-right: 100px;
+        }
+
+        div.col-6.jumbo div.jumbotron p {
+            margin: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+
+div.col-8.bar {
+    background-color: aqua;
+}
+
+    div.col-8.bar div.progress {
+        background-color: snow;
+        margin-top: 50px;
+    }
+
+div.progress div.progress-bar.progress-bar-danger {
+    color: black;
+    background-color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.col-1.pillMenu {
     height: 200px;
-    background-color: darkgreen;
+    background-color: orange;
 }
 
-button.btn.btn-primary.btn-lg{
-    margin:50px;
-    background-color:darkslategray;
-}
+    div.col-1.pillMenu ul.nav.nav-pills.nav-stacked li.active a {
+        color: black;
+    }
 
+    div.col-1.pillMenu ul.nav.nav-pills.nav-stacked li a {
+        color: black;
+    }
 
-
+    div.col.Slide{
+        margin-top:10px;
+        background-color:black;
+        height:250px;
+        width:500px;
+    }
